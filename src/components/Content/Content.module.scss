@@ -1,0 +1,12 @@
+.contain {
+  background-color: #f4f4f4;
+  padding: 15px 50px;
+  display: flex;
+
+  .slideSection {
+    height: 600px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+}

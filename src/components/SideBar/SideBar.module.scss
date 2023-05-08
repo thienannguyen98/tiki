@@ -1,0 +1,28 @@
+.container {
+  width: 20%;
+  background: white;
+  height: 600px;
+
+  .productList {
+    list-style: none;
+    color: #808080;
+    border: 1px solid #e0e1dc;
+    border-radius: 2px;
+    height: 100%;
+    li {
+      height: 35px;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      cursor: pointer;
+      padding: 0 20px;
+      .sideIcon {
+        margin-right: 15px;
+      }
+
+      &:hover {
+        background-color: #189eff;
+      }
+    }
+  }
+}

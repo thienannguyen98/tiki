@@ -1,0 +1,108 @@
+$base-color: rgb(24, 158, 255);
+$yellow: #f6da38;
+
+.headerMain {
+  height: 120px;
+  background-color: $base-color;
+
+  .headerRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    height: 50%;
+    img {
+      width: 100px;
+    }
+
+    .searchBar {
+      width: 500px;
+      border-radius: 5px;
+      outline: none;
+
+      .searchInput {
+        width: 400px;
+        height: 40px;
+        border-radius: 5px 0 0 5px;
+        padding: 5px;
+        outline: none;
+        border: none;
+        color: #cfcfcf;
+      }
+
+      .searchButton {
+        width: 100px;
+        height: 40px;
+        border-radius: 0 5px 5px 0;
+        border: none;
+        cursor: pointer;
+        &:hover {
+          background-color: #cdcdcd;
+        }
+
+        .searchIcon {
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .loginButton,
+    .userInfo {
+      width: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      color: white;
+      text-decoration: none;
+
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+      .userIcon {
+        margin-right: 10px;
+        font-size: 25px;
+      }
+    }
+
+    .cartButton {
+      width: 150px;
+      border-radius: 5px;
+      border: 1px solid white;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 10px;
+      height: 40px;
+      cursor: pointer;
+
+      .cartCount {
+        width: 20px;
+        height: 20px;
+        background-color: $yellow;
+        border-radius: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+      }
+    }
+
+    .category,
+    .shipAddress,
+    .recentProduct,
+    p {
+      color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+
+      .headerRowIcon {
+        margin-right: 10px;
+      }
+    }
+  }
+}

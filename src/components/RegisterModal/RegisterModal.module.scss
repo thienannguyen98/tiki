@@ -1,0 +1,73 @@
+.contain {
+  position: fixed;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.3);
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+
+  .regisForm {
+    width: 40%;
+    min-height: 60%;
+    background-color: white;
+    padding: 50px 70px;
+    border-radius: 15px;
+
+    .formRow {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 70px;
+
+      .loginButton {
+        height: 40px;
+        width: 70px;
+
+        button {
+          height: 100%;
+          width: 100%;
+          border-radius: 5px;
+          border: 1px solid #767676;
+          cursor: pointer;
+          background-color: #f0f0f0;
+        }
+      }
+    }
+
+    .inputGroup {
+      display: flex;
+      flex-direction: column;
+
+      input {
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-bottom: 1px solid #808080;
+        margin-bottom: 30px;
+        font-size: 20px;
+        &:focus-visible {
+          outline: none;
+        }
+      }
+
+      p {
+        color: red;
+        margin-top: -20px;
+        margin-bottom: 20px;
+      }
+    }
+    .condition {
+      margin: 20px 0;
+    }
+    .regisButton {
+      width: 70px;
+      height: 40px;
+      border-radius: 5px;
+      border: 1px solid #767676;
+      cursor: pointer;
+    }
+  }
+}

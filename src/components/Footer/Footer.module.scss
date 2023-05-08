@@ -1,0 +1,23 @@
+.contain {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  .footColumn {
+    width: 19%;
+    height: 320px;
+
+    h3 {
+      margin: 20px 0;
+    }
+
+    ul {
+      color: #938e8f;
+      list-style: none;
+
+      li {
+        margin: 5px 0;
+        cursor: pointer;
+      }
+    }
+  }
+}
